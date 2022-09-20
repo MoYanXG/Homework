@@ -12,7 +12,7 @@ int main()
 	A = pow(a, 3);
 	B = pow(b, 3);
 	C = pow(c, 3);
-	if (A+B+C==x&&x>100)
+	if (A+B+C==x&&x>99&&1000>x)
 	{
 		cout << "YES" << endl;
 	}
